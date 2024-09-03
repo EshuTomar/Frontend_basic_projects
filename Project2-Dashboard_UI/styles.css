@@ -1,0 +1,91 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #28a745;
+    color: white;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.profile-card h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.profile-card button {
+    background-color: #28a745;
+    color: white;
+border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.product-card {
+    background-color: white;
+     border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.product-card h5 {
+    font-weight: bold;
+}
+
+.exam-cart {
+    background-color: #28a745;
+    border-radius: 15px;
+    padding: 20px;
+     margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.exam-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    height: 5px;
+    border-radius: 5px;
+}

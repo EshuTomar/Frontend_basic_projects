@@ -1,0 +1,26 @@
+.panel {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 200px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: move;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#resolved .card {
+    background-color: #d4edda; 
+}
+
+.panel h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}

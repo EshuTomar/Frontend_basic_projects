@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard UI</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid p-4">
+        <!-- Navigation Tabs -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">My Exam</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">My Progress Bar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">View Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Change Preference</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Success Stories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Billing Details</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
+            </li>
+        </ul>
+
+     
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="profile-card">
+                    <img src="https://s.cafebazaar.ir/images/upload/screenshot/com.laknaidriapps.girlscartoon-27aed6e0-bc93-4548-84bd-eba47379c42d.jpeg?x-img=v1/resize,h_600,lossless_false/optimize" alt="Profile Picture">
+                    <h5>Taniya IT</h5>
+                    <button>Manage Profile</button>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <h5>PTE Academic</h5>
+                            <p>Full Length Mock</p>
+                            <p>Get your actual score before the exam with Full Length Mock in just INR 499</p>
+                            <button class="btn btn-success">Explore All Products</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <h5>PTE Academic</h5>
+                            <p>Sectional Exam</p>
+                            <p>Get your actual score before the exam with Sectional Exam in just INR 499</p>
+                            <button class="btn btn-success">Explore All Products</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="product-card">
+                            <h5>PTE Academic</h5>
+                            <p>Question Specific Exam</p>
+                            <p>Get your actual score before the exam with Question Specific Exam in just INR 499</p>
+                            <button class="btn btn-success">Explore All Products</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Exam Cart Section -->
+        <div class="exam-cart mt-4 p-3">
+            My Exam Cart
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="exam-card">
+                    <h5>Pearson</h5>
+                    <p>Mock Exam</p>
+                    <p>3/9</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 33%;"></div>
+                    </div>
+                    <button class="btn btn-primary mt-3">View All</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="exam-card">
+                    <h5>Pearson</h5>
+                    <p>Listening Exam</p>
+                    <p>1/9</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 11%;"></div>
+                    </div>
+                    <button class="btn btn-primary mt-3">View All</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="exam-card">
+                    <h5>Pearson</h5>
+                    <p>Reading Exam</p>
+                    <p>0/6</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 0%;"></div>
+                    </div>
+                    <button class="btn btn-primary mt-3">View All</button>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="exam-card">
+                    <h5>Pearson</h5>
+                    <p>Writing Exam</p>
+                    <p>1/6</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 17%;"></div>
+                    </div>
+                    <button class="btn btn-primary mt-3">View All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
